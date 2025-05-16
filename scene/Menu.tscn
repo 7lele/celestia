@@ -1,7 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://b2q7hmgyypnlu"]
+[gd_scene load_steps=11 format=3 uid="uid://b2q7hmgyypnlu"]
 
 [ext_resource type="Texture2D" uid="uid://rqa2ld13ujag" path="res://Forêt_amérique_du_sud.jpg" id="1_3cqhr"]
 [ext_resource type="Script" uid="uid://bjgaxvmllrlge" path="res://Play.gd" id="2_rgvae"]
+[ext_resource type="Script" uid="uid://goduihjw1vis" path="res://settings.gd" id="3_rgvae"]
+[ext_resource type="Script" uid="uid://2ltsf8ljnqdl" path="res://quit.gd" id="4_n5gji"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cx167"]
 bg_color = Color(0, 0.47451, 0.25098, 1)
@@ -63,6 +65,7 @@ offset_top = 317.0
 offset_right = 799.0
 offset_bottom = 391.0
 text = "SETTINGS"
+script = ExtResource("3_rgvae")
 
 [node name="Quit" type="Button" parent="."]
 layout_mode = 0
@@ -74,3 +77,4 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_5yleq")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_ylpcl")
 theme_override_styles/normal = SubResource("StyleBoxFlat_uubjt")
 text = "QUIT"
+script = ExtResource("4_n5gji")
