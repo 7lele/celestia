@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rqa2ld13ujag"
-path="res://.godot/imported/Forêt_amérique_du_sud.jpg-bb42d71e8a87ae5d9395385b44fda64d.ctex"
+uid="uid://bue8cvabsydi4"
+path="res://.godot/imported/ground.png-328d82a69941a655cdd4638d3455ed11.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Forêt_amérique_du_sud.jpg"
-dest_files=["res://.godot/imported/Forêt_amérique_du_sud.jpg-bb42d71e8a87ae5d9395385b44fda64d.ctex"]
+source_file="res://assets/ground.png"
+dest_files=["res://.godot/imported/ground.png-328d82a69941a655cdd4638d3455ed11.ctex"]
 
 [params]
 

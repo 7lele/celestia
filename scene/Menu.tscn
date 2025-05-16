@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://b2q7hmgyypnlu"]
 
-[ext_resource type="Texture2D" uid="uid://rqa2ld13ujag" path="res://Forêt_amérique_du_sud.jpg" id="1_3cqhr"]
-[ext_resource type="Script" uid="uid://bjgaxvmllrlge" path="res://Play.gd" id="2_rgvae"]
+[ext_resource type="Texture2D" uid="uid://rqa2ld13ujag" path="res://assets/Forêt_amérique_du_sud.jpg" id="1_3cqhr"]
+[ext_resource type="Script" path="res://Play.gd" id="2_rgvae"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cx167"]
 bg_color = Color(0, 0.47451, 0.25098, 1)
