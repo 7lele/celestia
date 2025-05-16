@@ -1,0 +1,76 @@
+[gd_scene load_steps=9 format=3 uid="uid://b2q7hmgyypnlu"]
+
+[ext_resource type="Texture2D" uid="uid://rqa2ld13ujag" path="res://Forêt_amérique_du_sud.jpg" id="1_3cqhr"]
+[ext_resource type="Script" uid="uid://bjgaxvmllrlge" path="res://Play.gd" id="2_rgvae"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cx167"]
+bg_color = Color(0, 0.47451, 0.25098, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dolsu"]
+bg_color = Color(0.00621676, 0.508213, 9.62615e-08, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lthh4"]
+bg_color = Color(0.0156863, 1, 0, 0.572549)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5yleq"]
+bg_color = Color(1, 0.160784, 0.243137, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ylpcl"]
+bg_color = Color(0.788235, 0.160784, 0.368627, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uubjt"]
+bg_color = Color(1, 0, 0, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_right = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -26.0
+offset_top = -6.0
+offset_right = 1213.0
+offset_bottom = 654.0
+texture = ExtResource("1_3cqhr")
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Play" type="Button" parent="."]
+layout_mode = 0
+offset_left = 357.0
+offset_top = 188.0
+offset_right = 797.0
+offset_bottom = 262.0
+theme_override_styles/hover = SubResource("StyleBoxFlat_cx167")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_dolsu")
+theme_override_styles/normal = SubResource("StyleBoxFlat_lthh4")
+text = "PLAY"
+script = ExtResource("2_rgvae")
+
+[node name="Settings" type="Button" parent="."]
+layout_mode = 0
+offset_left = 359.0
+offset_top = 317.0
+offset_right = 799.0
+offset_bottom = 391.0
+text = "SETTINGS"
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 356.0
+offset_top = 443.0
+offset_right = 796.0
+offset_bottom = 517.0
+theme_override_styles/hover = SubResource("StyleBoxFlat_5yleq")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ylpcl")
+theme_override_styles/normal = SubResource("StyleBoxFlat_uubjt")
+text = "QUIT"
